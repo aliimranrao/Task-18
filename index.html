@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 18</title>
+</head>
+
+<body style="text-align: center;">
+    <script>
+
+let c1 = prompt("Enter the 1st Value");
+let c2 = prompt("Enter the 2nd Value");
+let c3 = prompt("Enter the 3rd Value");
+let c4 = prompt("Enter the 4th Value");
+let c5 = prompt("Enter the 5th Value");
+let c6 = prompt("Enter the 6th Value");
+let c7 = prompt("Enter the 7th Value");
+
+function kLargest(arr, n, k)
+{	
+	arr.sort((a, b) => b - a);
+
+	for (let i = 0; i < arr.length; i++)
+
+		document.write(arr[i] + " ");
+}
+	let arr = [ c1, c2, c3, c4, c5, c6, c7];
+	let n = arr.length;
+	let k = 3;
+	kLargest(arr, n, k);
+
+</script>
+
+    
+
+</body>
+
+</html>
